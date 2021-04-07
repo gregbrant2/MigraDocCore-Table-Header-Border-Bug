@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Temp\\PdfSharpCoreTableBug\\PdfSharpCoreTableBug\\PdfSharpCoreTableBug.csproj": {}
+  },
+  "projects": {
+    "C:\\Temp\\PdfSharpCoreTableBug\\PdfSharpCoreTableBug\\PdfSharpCoreTableBug.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Temp\\PdfSharpCoreTableBug\\PdfSharpCoreTableBug\\PdfSharpCoreTableBug.csproj",
+        "projectName": "PdfSharpCoreTableBug",
+        "projectPath": "C:\\Temp\\PdfSharpCoreTableBug\\PdfSharpCoreTableBug\\PdfSharpCoreTableBug.csproj",
+        "packagesPath": "C:\\Users\\greg\\.nuget\\packages\\",
+        "outputPath": "C:\\Temp\\PdfSharpCoreTableBug\\PdfSharpCoreTableBug\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Temp\\NuGet.Config",
+          "C:\\Users\\greg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Nuget": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.abp.io/805b6f5c-b9c1-4ffb-b4e8-54e0b52c2acc/v3/index.json": {},
+          "https://www.myget.org/F/blazorise/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MigraDocCore.Rendering": {
+              "target": "Package",
+              "version": "[0.1.1, )"
+            },
+            "PdfSharpCore": {
+              "target": "Package",
+              "version": "[1.2.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
